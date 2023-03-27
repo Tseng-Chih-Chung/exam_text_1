@@ -1,0 +1,29 @@
+﻿<Window x:Class="exam_text_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exam_text_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="他想說:" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="txttalk" HorizontalAlignment="Left" Height="27" Margin="67,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <Button Content="聽他說" HorizontalAlignment="Left" Height="25" Margin="10,42,0,0" VerticalAlignment="Top" Width="57" Click="Button_Click"/>
+        <Label Content="帳號" HorizontalAlignment="Left" Height="27" Margin="177,10,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="密碼" HorizontalAlignment="Left" Height="27" Margin="177,37,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="17" Margin="232,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="17" Margin="232,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Button Content="登入" HorizontalAlignment="Left" Height="19" Margin="178,69,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click_1"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="19" Margin="237,69,0,0" TextWrapping="Wrap" Text="登入通知" VerticalAlignment="Top" Width="70"/>
+        <Label Content="身高" HorizontalAlignment="Left" Height="27" Margin="353,10,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="體重" HorizontalAlignment="Left" Height="27" Margin="353,37,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="txtheight" HorizontalAlignment="Left" Height="17" Margin="391,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="(輸入公尺)"/>
+        <TextBox x:Name="txtweight" HorizontalAlignment="Left" Height="17" Margin="391,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Text="(輸入公斤)"/>
+        <Button Content="計算" HorizontalAlignment="Left" Height="19" Margin="353,69,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_2"/>
+        <Label Content="你的BMI" HorizontalAlignment="Left" Height="27" Margin="353,101,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="txtBMI" HorizontalAlignment="Left" Height="27" Margin="408,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="txtInfo1" HorizontalAlignment="Left" Height="19" Margin="410,69,0,0" TextWrapping="Wrap" Text="(我是報錯)" VerticalAlignment="Top" Width="63"/>
+
+    </Grid>
+</Window>
